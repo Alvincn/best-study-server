@@ -1,0 +1,17 @@
+spring:
+  redis:
+    database: 0
+    timeout: 10000
+    host: 101.34.53.248
+    password: Lzh011005
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/testManager?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: Lzh011005
+  jmx:
+    enabled: true
+server:
+  port: 8080
+logging:
+  level:
+    root: info
